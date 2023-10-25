@@ -37,8 +37,8 @@ import os
 
 
 def init(input_m, input_y):
-    username = "sara.huang@datarget.com"
-    password = "qazwsx1112"
+    username = "admin@datarget.com"
+    password = "90468505"
     input_date = input_y + "-" + str(int(input_m)) + "-" + "1"
     input_date = datetime.datetime.strptime(input_date, "%Y-%m-%d").date()
     input_date += relativedelta(months=1)
@@ -112,6 +112,12 @@ def output_setup(driver):
         "//div[contains(@class,'ui5-button flex m-t-30 s36 primary')]",
     )
     generate.click()
+    # try:
+    #     clickable_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[contains(@class,'ui5-button flex m-t-30 s36 primary')]")))
+    #     # If it's clickable, click it
+    #     clickable_button.click()
+    # except:
+    #     print("Button is not clickable within the given timeout.")
 
     export = driver.find_element(
         By.XPATH,
@@ -199,7 +205,7 @@ def export(driver):
         By.XPATH, '//*[@id="ui-modal"]//div[contains(@class, "gd-btn m-t-10 primary")]'
     )
     export.click()
-    time.sleep(3)
+    time.sleep(10)
     # to-do: close until download complete
     driver.close()
 
@@ -266,8 +272,9 @@ def file_ETL(dif_m):
 
 
 def runner():
-    username, password, dif_m = init("8", "2023")
-    driver = Chrome_setting()
+    username, password, dif_m = init("9", "2023")
+    # driver = Chrome_setting()
+    driver = drive_setup()
     driver = login(driver, username, password)
     driver = output_setup(driver)
     driver = download_setup(driver, dif_m)

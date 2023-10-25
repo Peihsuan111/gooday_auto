@@ -1,0 +1,263 @@
+[
+    {
+        "momentCreated": "2022-10-12T06:16:28.201526",
+        "primaryEmail": "ben.liu@datarget.com",
+        "name": "劉家瑋034",
+        "reportsToUserId": "cS04VP",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "Dbcoyl"
+    },
+    {
+        "momentCreated": "2023-02-01T07:38:51.581562",
+        "primaryEmail": "cleo.cho@datarget.com",
+        "name": "卓欣慧040",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "syCL0o"
+    },
+    {
+        "momentCreated": "2022-10-12T07:40:40.0253",
+        "primaryEmail": "yunyang.wu@datarget.com",
+        "name": "吳昀洋025",
+        "reportsToUserId": "plyGMF",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "kJ5Hsb"
+    },
+    {
+        "momentCreated": "2022-03-30T08:53:24.061781",
+        "primaryEmail": "jengbin.wu@datarget.com",
+        "name": "吳正彬014",
+        "reportsToUserId": "plyGMF",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "XhemLD"
+    },
+    {
+        "momentCreated": "2022-03-21T06:21:06.022681",
+        "primaryEmail": "evan.yu@datarget.com",
+        "name": "尤喻民017",
+        "reportsToUserId": "plyGMF",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "yZNA6Q"
+    },
+    {
+        "momentCreated": "2022-03-21T02:25:29.803284",
+        "primaryEmail": "leo.kang@datarget.com",
+        "name": "康宇宣019",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "Manager",
+        "id": "0Siy0Z"
+    },
+    {
+        "momentCreated": "2022-09-27T04:40:58.472324",
+        "primaryEmail": "yuchen.liao@datarget.com",
+        "name": "廖祐辰020",
+        "reportsToUserId": "0Siy0Z",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "441HTM"
+    },
+    {
+        "momentCreated": "2022-09-27T04:45:10.11936",
+        "primaryEmail": "pu.chang@datarget.com",
+        "name": "張容溥029",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "H8F2AD"
+    },
+    {
+        "momentCreated": "2022-03-21T06:26:24.624775",
+        "primaryEmail": "joshua.chang@datarget.com",
+        "name": "張景曄013",
+        "reportsToUserId": "cS04VP",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "zUm6dF"
+    },
+    {
+        "momentCreated": "2023-02-02T03:56:23.796077",
+        "primaryEmail": "henry.chang@datarget.com",
+        "name": "張淵翔042",
+        "reportsToUserId": "0Siy0Z",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "1hGJZE"
+    },
+    {
+        "momentCreated": "2023-07-03T06:31:12.866424",
+        "primaryEmail": "yuchao.chang@datarget.com",
+        "name": "張育超052",
+        "reportsToUserId": "0Siy0Z",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "NcECwO"
+    },
+    {
+        "momentCreated": "2022-09-27T04:43:37.455571",
+        "primaryEmail": "jack.fang@datarget.com",
+        "name": "方誌賢024",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "lKhHUe"
+    },
+    {
+        "momentCreated": "2023-03-27T05:09:57.324948",
+        "primaryEmail": "janice.lee@datarget.com",
+        "name": "李佳樺045",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "WKUmPe"
+    },
+    {
+        "momentCreated": "2022-03-21T06:22:13.315768",
+        "primaryEmail": "yr.lee@datarget.com",
+        "name": "李易儒003",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "Manager",
+        "id": "plyGMF"
+    },
+    {
+        "momentCreated": "2022-03-18T08:56:46.227153",
+        "primaryEmail": "phoebe.lin@datarget.com",
+        "name": "林孟潔005",
+        "reportsToUserId": null,
+        "isAdmin": false,
+        "companyRole": "Manager",
+        "id": "zSmOpl"
+    },
+    {
+        "momentCreated": "2023-05-22T03:22:22.48082",
+        "primaryEmail": "alison.yang@datarget.com",
+        "name": "楊芳燕049",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "UP3hMz"
+    },
+    {
+        "momentCreated": "2022-09-27T05:06:44.200934",
+        "primaryEmail": "mink.hung@datarget.com",
+        "name": "洪敏琛031",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "Manager",
+        "id": "B1Rlpw"
+    },
+    {
+        "momentCreated": "2022-10-17T07:27:12.188045",
+        "primaryEmail": "gill.chin@datarget.com",
+        "name": "秦薏喬035",
+        "reportsToUserId": "mw9oIq",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "QYC1k0"
+    },
+    {
+        "momentCreated": "2023-02-01T07:25:51.861255",
+        "primaryEmail": "webber.yeh@datarget.com",
+        "name": "葉威良041",
+        "reportsToUserId": "0Siy0Z",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "xeokh3"
+    },
+    {
+        "momentCreated": "2023-07-27T02:28:58.421603",
+        "primaryEmail": "mengchang.hsu@datarget.com",
+        "name": "許孟昌054",
+        "reportsToUserId": "cS04VP",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "THLwKb"
+    },
+    {
+        "momentCreated": "2023-03-01T07:32:51.399629",
+        "primaryEmail": "wilson.hsieh@datarget.com",
+        "name": "謝岳霖044",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "Manager",
+        "id": "1mXa1Z"
+    },
+    {
+        "momentCreated": "2022-03-30T08:53:43.588926",
+        "primaryEmail": "kevin.cheng@datarget.com",
+        "name": "鄭凱文015",
+        "reportsToUserId": "plyGMF",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "2PhMrz"
+    },
+    {
+        "momentCreated": "2023-06-01T05:20:12.750519",
+        "primaryEmail": "joli.chen@datarget.com",
+        "name": "陳怡靜051",
+        "reportsToUserId": "0Siy0Z",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "5h3hDV"
+    },
+    {
+        "momentCreated": "2022-06-16T02:55:19.856433",
+        "primaryEmail": "chiehfong.ma@datarget.com",
+        "name": "馬婕鳳030",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "2sWXCw"
+    },
+    {
+        "momentCreated": "2022-03-18T09:57:40.372782",
+        "primaryEmail": "ian.feng@datarget.com",
+        "name": "馮薏安009",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "Manager",
+        "id": "cS04VP"
+    },
+    {
+        "momentCreated": "2022-04-18T02:06:53.476588",
+        "primaryEmail": "admin@datarget.com",
+        "name": "騰創數析Datarget",
+        "reportsToUserId": null,
+        "isAdmin": true,
+        "companyRole": "Manager",
+        "id": "mw9oIq"
+    },
+    {
+        "momentCreated": "2023-05-09T06:25:45.325048",
+        "primaryEmail": "sara.huang@datarget.com",
+        "name": "黃姵瑄048",
+        "reportsToUserId": "cS04VP",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "W6VeH9"
+    },
+    {
+        "momentCreated": "2023-06-01T05:20:12.750519",
+        "primaryEmail": "anna.huang@datarget.com",
+        "name": "黃彥評050",
+        "reportsToUserId": "zSmOpl",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "5rqy7r"
+    },
+    {
+        "momentCreated": "2022-03-21T06:21:49.735815",
+        "primaryEmail": "zoe.huang@datarget.com",
+        "name": "黃柔語016",
+        "reportsToUserId": "plyGMF",
+        "isAdmin": false,
+        "companyRole": "User",
+        "id": "RRqjUX"
+    }
+]
