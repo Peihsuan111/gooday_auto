@@ -1,3 +1,13 @@
+"""_summary_
+
+Example:
+    # Run last month
+    >> python3 goodday_api.py l
+    
+    # Run specific month
+    >> python3 goodday_api.py 2023 8
+
+"""
 import requests
 import os
 import pandas as pd
@@ -5,8 +15,13 @@ from datetime import date
 import datetime
 import sys
 
-download_year, download_month = int(sys.argv[1]), int(sys.argv[2])
-# download_year, download_month = 2023, 9
+if sys.argv[1] == "l":  # run last month
+    thisMonth = datetime.datetime.today().replace(day=1)
+    lastMonth = thisMonth - datetime.timedelta(days=1)
+    download_year, download_month = lastMonth.year, lastMonth.month
+else:
+    download_year, download_month = int(sys.argv[1]), int(sys.argv[2])
+
 start_date = datetime.date(download_year, download_month, 1).strftime("%Y-%m-%d")
 end_date = datetime.date(download_year, download_month + 1, 1).strftime("%Y-%m-%d")
 print(f"Running {download_year}, {download_month}\nFrom {start_date} to {end_date}")
