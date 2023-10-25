@@ -3,7 +3,7 @@
 Example:
     # Run last month
     >> python3 goodday_api.py l
-    
+
     # Run specific month
     >> python3 goodday_api.py 2023 8
 
@@ -134,7 +134,7 @@ def clean_data(df):
     ).reset_index()
     df_sum = df_sum[:-1]
 
-    curdir = os.getcwd()
+    curdir = os.path.dirname(os.path.realpath(__file__))
     date_naming = date(download_year, download_month, 1).strftime("%b") + str(
         download_year
     )
