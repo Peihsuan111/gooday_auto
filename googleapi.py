@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -9,7 +10,10 @@ import os, sys
 scope = ["https://www.googleapis.com/auth/drive"]
 service_account_json_key = "credentials.json"
 credentials = service_account.Credentials.from_service_account_file(
-    filename=service_account_json_key, scopes=scope
+    filename=os.path.join(
+        os.path.dirname(os.path.realpath(__file__)), service_account_json_key
+    ),
+    scopes=scope,
 )
 service = build("drive", "v3", credentials=credentials)
 
@@ -28,16 +32,16 @@ def ListFiles():
     print(items)
 
 
-def UploadFile(fileName):  # "upload_test.txt"
+def UploadFile(filePath, fileName):  # "upload_test.txt"
     # Upload
-    print(f"Uploading file {fileName}...")
+    print(f"Uploading file {filePath}...")
     uploadFolderId = "1za3m7dnm7Yrn3WujZzVPLhbdvbPfMueH"
     file_metadata = {
         "name": fileName,
         "parents": [uploadFolderId],
     }
     media = MediaFileUpload(
-        fileName,
+        filePath,
         mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     )
 
@@ -62,4 +66,5 @@ if __name__ == "__main__":
 
     dir_path = os.path.dirname(os.path.realpath(__file__))
     file_path = os.path.join(dir_path, f"{date_naming}_time_reports.xlsx")
-    UploadFile(file_path)
+    file_name = f"{date_naming}_time_reports.xlsx"
+    UploadFile(file_path, file_name)
