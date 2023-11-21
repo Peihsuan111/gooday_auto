@@ -27,6 +27,7 @@ start_date = datetime.date(download_year, download_month, 1).strftime("%Y-%m-%d"
 end_date = datetime.date(download_year, download_month + 1, 1).strftime("%Y-%m-%d")
 print(f"Running {download_year}, {download_month}\nFrom {start_date} to {end_date}")
 gooday_token = "8d73cf48e9d04fb3925744c8d2381fab"
+curdir = os.path.dirname(os.path.realpath(__file__))
 
 
 def get_reports(start_date, end_date):
@@ -135,7 +136,6 @@ def clean_data(df):
     ).reset_index()
     df_sum = df_sum[:-1]
 
-    curdir = os.path.dirname(os.path.realpath(__file__))
     date_naming = date(download_year, download_month, 1).strftime("%b") + str(
         download_year
     )
@@ -167,3 +167,11 @@ for i in data:
 
 df = pd.DataFrame(reports)  # .to_csv("time-reports.csv")
 clean_data(df)
+
+# upload file to google drive
+from googleapi import UploadFile
+
+date_naming = date(download_year, download_month, 1).strftime("%b") + str(download_year)
+file_path = os.path.join(curdir, f"{date_naming}_time_reports.xlsx")
+file_name = f"{date_naming}_time_reports.xlsx"
+UploadFile(file_path, file_name)
